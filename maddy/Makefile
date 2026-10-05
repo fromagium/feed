@@ -1,14 +1,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=maddy
-PKG_VERSION:=0.9.5
+PKG_VERSION:=0.9.6
 PKG_RELEASE:=1
 PKG_LICENSE:=GPL-3.0-or-later
 PKG_LICENSE_FILES:=COPYING
 
 PKG_SOURCE:=$(PKG_NAME)-v$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/foxcpp/maddy/tar.gz/v${PKG_VERSION}?
-PKG_HASH:=c5670ff64930a4d69053557cdf252527b54c32bff882c33d120bd208f34a6e19
+PKG_HASH:=ebedac47f0831d6b8b9219dcacc2e052cb21786229c0cfb032d5bb5a2f3d1583
 
 PKG_MAINTAINER:=Romain Isnel <ri@frmg.eu>
 
